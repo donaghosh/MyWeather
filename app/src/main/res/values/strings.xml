@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">My Weather</string>
+    <string-array name="supported_cities">
+        <item>Select City</item>
+        <item>Adilabad</item>
+        <item>Agra</item>
+        <item>Ahmedabad</item>
+        <item>Ahmednagar</item>
+        <item>Aizawl</item>
+        <item>Durgapur</item>
+        <item>Ajmer</item>
+        <item>Akola</item>
+        <item>Alappuzha</item>
+        <item>Aligarh</item>
+        <item>Alirajpur</item>
+        <item>Allahabad</item>
+        <item>Almora</item>
+        <item>Alwar</item>
+        <item>Ambala</item>
+        <item>Kolkata</item>
+        <item>Amravati</item>
+        <item>Patna</item>
+        <item>Amritsar</item>
+        <item>Anand</item>
+        <item>Anantapur</item>
+        <item>Anantnag</item>
+    </string-array>
+</resources>

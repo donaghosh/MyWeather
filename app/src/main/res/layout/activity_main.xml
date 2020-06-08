@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:layout_height="match_parent">
+
+
+    <Spinner
+        android:id="@+id/languages_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/text_to_translate"
+        android:entries="@array/supported_cities" />
+
+    <Button
+        android:id="@+id/forecast_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:text="Search"
+        android:textColor="#fff" />
+</LinearLayout>
