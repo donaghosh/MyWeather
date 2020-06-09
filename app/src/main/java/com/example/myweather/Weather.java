@@ -25,7 +25,7 @@ import static android.net.wifi.rtt.CivicLocationKeys.CITY;
 public class Weather extends AppCompatActivity {
 
 
-    String API = "8118ed6ee68db2debfaaa5a44c832918";
+    String API = "Enter your API key here";
 
     TextView  updated_atTxt, statusTxt, tempTxt, temp_minTxt, temp_maxTxt, sunriseTxt,
             sunsetTxt, windTxt, pressureTxt, humidityTxt, addressTxt;
@@ -120,7 +120,6 @@ public class Weather extends AppCompatActivity {
                 findViewById(R.id.loader).setVisibility(View.GONE);
                 findViewById(R.id.errorText).setVisibility(View.VISIBLE);
             }
-
         }
     }
 }
